@@ -1,5 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/api/kampanyalar", "destination": "/api/kampanyalar.js" }
-  ]
+  "functions": {
+    "api/kampanyalar.js": {
+      "maxDuration": 30
+    }
+  }
 }
